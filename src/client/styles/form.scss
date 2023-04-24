@@ -1,0 +1,46 @@
+form {
+  border-radius: 1rem;
+  padding: 40px;
+  width: 400px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
+}
+
+#date-field {
+  display: flex;
+  flex-direction: column;
+}
+#start-date,
+#end-date,
+label {
+  border-radius: 10px;
+  width: 200px;
+  margin: auto;
+  margin-top: 10px;
+  font-size: 1.5em;
+  border-width: 0px;
+  padding: 5px;
+}
+
+label {
+  text-align: center;
+}
+
+.city-input {
+  border-radius: 10px;
+  font-size: 1.5em;
+  width: 300px;
+  margin: auto;
+}
+
+#submit,
+#luck {
+  border-radius: 10px;
+
+  font-size: 1.5em;
+  width: fit-content;
+  margin: auto;
+  margin-top: 10px;
+}
